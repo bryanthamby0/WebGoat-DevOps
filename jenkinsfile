@@ -16,7 +16,7 @@ agent any
       echo "Compile the Application........."
       }
     }
-    stage("Deploy'){
+    stage('Deploy'){
       steps{
       echo "Deploy the Application........."
       }
